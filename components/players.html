@@ -2,13 +2,13 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title>{{ title }}</title>
+    <title>Players</title>
 
     <link href="main.css" rel="stylesheet">
     <link href="players.css" rel="stylesheet">
 </head>
 <body>
-{% for p in players %}
+{% for p in cards %}
 <div class="card {{p.position}}">
     <header>
         <h1>{{ p.first_name }} {{ p.last_name }}</h1>
