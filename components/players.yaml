@@ -1,0 +1,51 @@
+---
+
+- first_name: Mike
+  last_name: Cruncher
+  position: Defence
+  flavour: Mike is a hunky defender that has broken as many heart as he has ankles.
+  skill: 4
+  strength: 4
+  speed: 4
+- first_name: Tony
+  last_name: Cleaver
+  position: Defence
+  flavour: Tony doesn't think much, and then only in single syllables.
+  skill: 4
+  strength: 4
+  speed: 4
+- first_name: Dave
+  last_name: Mallet
+  position: Defence
+  flavour: Dave loves smashing bones almost as much as he loves his old mum.
+  skill: 4
+  strength: 4
+  speed: 4
+- first_name: Archibald
+  last_name: Talbot
+  position: Defence
+  flavour: Archie is as crafty as they come.
+  skill: 4
+  strength: 4
+  speed: 4
+- first_name: Terence
+  last_name: Swiftfoot
+  position: Attack
+  flavour: You could call Terry quick, but he won't hear as he'll already be 40 yards away.
+  skill: 4
+  strength: 4
+  speed: 4
+- first_name: Ethelbert
+  last_name: Skillton
+  position: Attack
+  flavour: Elthelbert is a practitioner of the beautiful game.
+  skill: 4
+  strength: 4
+  speed: 4
+- first_name: Marcus
+  last_name: Tighter
+  position: Defense
+  flavour: Marcus sticks to his opponents like glue
+  skill: 3
+  strength: 1
+  speed: 3

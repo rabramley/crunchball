@@ -7,15 +7,22 @@
     <link href="players.css" rel="stylesheet">
 </head>
 <body>
-    <h2>Players</h2>
-    {% for p in players %}
-	    <div class="card">
-	    	<header>
-			    <h1>{{ p.first_name }} {{ p.last_name }}</h1>
-			    <h2>{{ p.position }}</h2>
-	    	</header>
-	    	<p>{{ p.flavour }}</p>
-	    </div>
-	{% endfor %}
+{% for p in players %}
+<div class="card">
+    <header>
+        <h1>{{ p.first_name }} {{ p.last_name }}</h1>
+        <h2>{{ p.position }}</h2>
+    </header>
+    <dl>
+        <dt>Skill</dt>
+        <dd>{{ p.skill }}</dd>
+        <dt>Strength</dt>
+        <dd>{{ p.strength }}</dd>
+        <dt>Speed</dt>
+        <dd>{{ p.speed }}</dd>
+    </dl>
+    <p>{{ p.flavour }}</p>
+</div>
+{% endfor %}
 </body>
 </html>
