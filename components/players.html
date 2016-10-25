@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <title>{{ title }}</title>
 
+    <link href="main.css" rel="stylesheet">
     <link href="players.css" rel="stylesheet">
 </head>
 <body>
 {% for p in players %}
-<div class="card">
+<div class="card {{p.position}}">
     <header>
         <h1>{{ p.first_name }} {{ p.last_name }}</h1>
         <h2>{{ p.position }}</h2>
     </header>
     <dl>
-        <dt>Skill</dt>
-        <dd>{{ p.skill }}</dd>
+        <dt>Attack</dt>
+        <dd>{{ p.attack }}</dd>
+        <dt>Defence</dt>
+        <dd>{{ p.defence }}</dd>
         <dt>Strength</dt>
         <dd>{{ p.strength }}</dd>
         <dt>Speed</dt>
