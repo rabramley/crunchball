@@ -1,0 +1,9 @@
+.card dt {
+  width: 15px;
+  display: inline-block;
+}
+
+.card dd {
+  width: 90px;
+  display: inline-block;
+}

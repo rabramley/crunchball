@@ -1,0 +1,35 @@
+---
+
+- name: Pass
+  lvl_1: 4
+  lvl_1_text: Forward 3 regions
+  lvl_2: 3
+  lvl_2_text: Forward 2 region
+  lvl_3: 2
+  lvl_3_text: No gain
+  lvl_4: 1
+  lvl_4_text: Back 1 region
+- name: Screen Pass
+  lvl_1: 4
+  lvl_1_text: Forward 2 regions
+  lvl_2: 3
+  lvl_2_text: Forward 1 region
+  lvl_3: 2
+  lvl_3_text: No gain
+- name: Inside Run
+  lvl_1: 4
+  lvl_1_text: Forward 2 regions
+  lvl_2: 3
+  lvl_2_text: Forward 1 region
+  lvl_3: 1
+  lvl_3_text: No gain
+- name: Outside Run
+  lvl_1: 4
+  lvl_1_text: Forward 2 regions
+  lvl_2: 3
+  lvl_2_text: Forward 1 region
+  lvl_3: 2
+  lvl_3_text: No gain
+  lvl_4: 1
+  lvl_4_text: Back 1 region
+

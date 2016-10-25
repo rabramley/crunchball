@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Plays</title>
+
+    <link href="main.css" rel="stylesheet">
+    <link href="plays.css" rel="stylesheet">
+</head>
+<body>
+{% for p in cards %}
+<div class="card">
+    <header>
+        <h1>{{ p.name }}</h1>
+    </header>
+    <dl>
+        <dt>{{ p.lvl_1 }}</dt>
+        <dd>{{ p.lvl_1_text }}</dd>
+        <dt>{{ p.lvl_2 }}</dt>
+        <dd>{{ p.lvl_2_text }}</dd>
+        <dt>{{ p.lvl_3 }}</dt>
+        <dd>{{ p.lvl_3_text }}</dd>
+        <dt>{{ p.lvl_4 }}</dt>
+        <dd>{{ p.lvl_4_text }}</dd>
+    </dl>
+</div>
+{% endfor %}
+</body>
+</html>

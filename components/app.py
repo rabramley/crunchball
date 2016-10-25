@@ -23,7 +23,9 @@ def produce_cards(card_type):
     HTML(string=html, base_url='.').write_pdf('/components_pdfs/{0}.pdf'.format(card_type))
 
 produce_cards('players')
+produce_cards('plays')
 
 copyfile('./main.css', '/components_pdfs/main.css')
 copyfile('./players.css', '/components_pdfs/players.css')
+copyfile('./plays.css', '/components_pdfs/plays.css')
 
